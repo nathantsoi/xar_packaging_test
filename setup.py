@@ -11,6 +11,5 @@ setuptools.setup(
     version='0.1',
     packages=setuptools.find_packages(),
     install_requires=requirements,
-    entry_points={'console_scripts':['test=test:main']},
-    include_package_data=True
+    entry_points={'console_scripts':['test=test:main']}
 )
